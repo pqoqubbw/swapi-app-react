@@ -1,0 +1,19 @@
+.fb-btn {
+  width: 150px;
+  background: #3b5998;
+  color: white;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper-auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 30vh;
+}
