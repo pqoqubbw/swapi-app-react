@@ -1,6 +1,6 @@
 # Swapi React App
 
-[Live Demo App](https://github.com/facebook/create-react-app)
+[Live Demo App](https://pqoqubbw.github.io/swapi-app-react/)
 
 ## Available Scripts
 
