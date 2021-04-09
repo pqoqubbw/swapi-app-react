@@ -31,10 +31,10 @@ const Authorization = ({
         <h3>Please enter one of the following methods:</h3>
       </div>
       <LinkedIn
-        clientId="77ho2zew7olech"
+        clientId="81lx5we2omq9xh"
         onFailure={(error) => setErrorMessage(error.errorMessage)}
         onSuccess={(data) => setCode(data.code)}
-        redirectUri="https://pqoqubbw.github.io/swapi-app-react/"
+        redirectUri="http://localhost:3000/linkedin"
       >
         <img
           src={linkedin}
