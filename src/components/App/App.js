@@ -12,10 +12,10 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/linkedin" component={LinkedInPopUp} />
+        <Route exact path="/swapi-app-react/linkedin" component={LinkedInPopUp} />
         <Route
           exact
-          path="/"
+          path="/swapi-app-react/"
           render={() => (
             <Authorization
               code={code}
@@ -26,7 +26,7 @@ const App = () => {
           )}
         />
         <Route
-          path="/:id"
+          path="/swapi-app-react/:id"
           render={({ match }) => {
             const { id } = match.params;
             return (
